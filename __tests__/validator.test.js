@@ -44,7 +44,6 @@ describe('validator module performs basic validation of', () => {
 
   it('booleans', () => {
     let bool = false;
-    console.log(validator.isBooleans(bool))
     expect(validator.isBooleans(bool)).toBeTruthy();
   });
 
