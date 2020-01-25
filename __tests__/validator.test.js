@@ -17,9 +17,9 @@ describe('validator module performs basic validation of', () => {
     for (let i = 0; i < array.length; i++) {
       if ( array[i] === 'yes' ) {
         expect(validator.isString(array[i])).toBeTruthy();
-        } else if (array[i] !== 'yes') {
-          expect(validator.isString(array[i])).toBeFalsy();
-        }  
+      } else if (array[i] !== 'yes') {
+        expect(validator.isString(array[i])).toBeFalsy();
+      }  
     }
   });
 
@@ -63,7 +63,7 @@ describe('validator module performs complex validations', () => {
     heros : { DMC : 'Dante' , RE : 'Leon' },
     gamesNum : 2 ,
     bigCompany : true ,
-    games : [ 'Devil May Cry ', 'Resident Evil' ] 
+    games : [ 'Devil May Cry ', 'Resident Evil' ], 
   };
 
 
@@ -96,5 +96,5 @@ describe('validator module performs complex validations', () => {
     expect(validator.isObject(object.heros)).toBeTruthy(); 
   });
 
-})
+});
 

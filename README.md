@@ -8,7 +8,7 @@ Time to get hands on with Test Driven Development (TDD) and Continuous Integrati
 
 ### Links and Resources
 
-- [submission PR]
+- [submission PR](https://github.com/401-advanced-javascript-Rashid/Lab-Class-01/pull/1)
 - [ci/cd]
 
 ### Setup
@@ -20,12 +20,17 @@ npm i jest eslint
 
 #### Tests
 
-1- How do you run tests?
+- How do you run tests?
      - 'npm test'
-2- Any tests of note?
+     - 'npm run lint'
+_____________
+
+- Any tests of note?
      - jest --verbose --coverage
-3- Describe any tests that you did not complete, skipped, etc
+_____________
+
+- Describe any tests that you did not complete, skipped, etc
      - evey test solved and another time i will cover more cases.
-     
+
 #### UML
 Link to an image of the UML for your application and response to events
