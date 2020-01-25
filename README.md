@@ -9,7 +9,7 @@ Time to get hands on with Test Driven Development (TDD) and Continuous Integrati
 ### Links and Resources
 
 - [submission PR](https://github.com/401-advanced-javascript-Rashid/Lab-Class-01/pull/1)
-- [ci/cd]
+- [ci/cd](https://github.com/401-advanced-javascript-Rashid/Lab-Class-01/commit/8ce27a73e79fca61e44cd58ad9ad56c90c0f6097/checks?check_suite_id=418840828)
 
 ### Setup
 npm i jest eslint
